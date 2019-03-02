@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+   <body>
+     <h1>Meters</h1>
+     {% for row in query%}
+      <h2><a href = "meters/{{ row[0] }}">{{ row[1] }}</a></h2>
+      {% endfor %}
+   </body>
+</html>
