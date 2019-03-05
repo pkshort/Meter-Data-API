@@ -10,7 +10,7 @@ api = Api(app)
 
 app.config["DEBUG"] = True
 
-@app.route('/meters')
+@app.route('/meters/')
 def get():
     #connecting to database
     conn = e.connect()
